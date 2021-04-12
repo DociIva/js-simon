@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var contenuto = 5;
 
-    while(contatore < contenuto) {
+    for( var i = 0; i < contenuto; i ++) {
       var numero = Math.floor(Math.random() * 50) +1;
       numeri.push(numero);
       contatore++;
