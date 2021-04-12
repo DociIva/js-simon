@@ -1,13 +1,22 @@
 //console.log('Ciao mondo');
 //console.log('jQuery', jQuery);
 $(document).ready(function(){
-    var numeri = [ 17 , 36 , 44 , 5 , 3];
+    var numeri = [];
 
-    for( var i = 0; i < 57; i++) {
-        
-        alert('Ricorda questi numeri ' + numeri);
+    var contatore = 0;
+
+    var contenuto = 5;
+
+    while(contatore < contenuto) {
+      var numero = Math.floor(Math.random() * 50) +1;
+      numeri.push(numero);
+      contatore++;
+     
+     alert('Ricorda questi numeri ' + (numeri));
+
+
     
 
     }
-  
+
 }); 
